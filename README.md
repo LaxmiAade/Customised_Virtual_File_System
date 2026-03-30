@@ -68,7 +68,7 @@ All three layers are maintained in memory. No disk reads or writes occur at any 
 ## Key Components
 
 ### 1. Incore Inode Table
-The Inode Table is the heart of the VFS. Every file and directory has one inode entry containing all of its metadata.
+The Inode Table is the heart of the CVFS. Every file and directory has one inode entry containing all of its metadata.
 
 | Field | Description |
 |-------|-------------|
@@ -82,7 +82,7 @@ The Inode Table is the heart of the VFS. Every file and directory has one inode 
 | Timestamps | Created / Modified timestamps |
 
 ### 2. System-Wide Open File Table (File Table)
-Maintained globally across the entire VFS. Each entry is created when a file is opened and removed when all references are closed.
+Maintained globally across the entire CVFS. Each entry is created when a file is opened and removed when all references are closed.
 
 | Field | Description |
 |-------|-------------|
