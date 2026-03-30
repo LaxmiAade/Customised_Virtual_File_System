@@ -27,7 +27,7 @@ Customised_Virtual_File_System/
 ├── filetable.h / filetable.cpp # System-Wide Open File Table — active open file entries
 ├── uarea.h / uarea.cpp         # UAREA — per-process User File Descriptor Table
 ├── directory.h / directory.cpp # Directory structure — hierarchical name-to-inode mapping
-├── commands.h / commands.cpp   # All VFS command implementations (ls, mkdir, create, etc.)
+├── commands.h / commands.cpp   # All CVFS command implementations (ls, mkdir, create, etc.)
 │
 └── README.md
 ```
@@ -36,7 +36,7 @@ Customised_Virtual_File_System/
 
 ## Core Architecture
 
-The VFS is modelled on the three-tier kernel file management architecture used in Unix/Linux:
+The CVFS is modelled on the three-tier kernel file management architecture used in Unix/Linux:
 
 ```
  User Process
