@@ -7,7 +7,7 @@
 ![Feature](https://img.shields.io/badge/Feature-Linux%20VFS%20Simulation-orange)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
 
-A custom in-memory Virtual File System (VFS) implemented in C++ that simulates the core internals of a Linux/Unix filesystem. The system replicates the architecture of real operating system file management — including an Incore Inode Table, a System-Wide Open File Table, and a per-process User Area (UAREA) with a User File Descriptor Table — all operating entirely in RAM without any disk I/O.
+A Customised Virtual File System (CVFS) implemented in C++ but the implementations are C- Language, that simulates the core internals of a Linux/Unix filesystem. The system replicates the architecture of real operating system file management — including an Incore Inode Table, a System-Wide Open File Table, and a per-process User Area (UAREA) with a User File Descriptor Table — all operating entirely in RAM without any disk I/O.
 
 ---
 
