@@ -245,6 +245,6 @@ Thank You for Using This Application...
 
 ## Author
 
-**Laxmi Aade**
+**Laxmi Rahul Rathod**
 
 Built as a C++ Systems Project to understand and replicate the internal architecture of a Linux Virtual File System — including incore inode management, the system-wide open file table, and the per-process UAREA file descriptor table — using pure in-memory data structures.
